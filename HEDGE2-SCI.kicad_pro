@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.45,
-          "height": 5.5,
-          "width": 5.5
+          "drill": 1.02,
+          "height": 1.4,
+          "width": 1.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,48 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|188868501|84779778|2cac7b47-db3c-42de-83cb-6699850fb76f|4a1d50fb-ac28-450a-a92f-6313b1b9b2a5",
+          ""
+        ],
+        [
+          "courtyards_overlap|255908501|86626801|4857b7c8-64a0-4903-ba7a-c837b9e67a5f|4a1d50fb-ac28-450a-a92f-6313b1b9b2a5",
+          ""
+        ],
+        [
+          "courtyards_overlap|255908501|89377301|2f17919e-424f-466f-9040-f8e841730251|4a1d50fb-ac28-450a-a92f-6313b1b9b2a5",
+          ""
+        ],
+        [
+          "silk_overlap|189113501|89492301|04a2db55-dd0e-4036-96c4-b9177362bb59|3f27a783-97e8-45c8-87db-553183e0b1d8",
+          ""
+        ],
+        [
+          "silk_overlap|189113501|89492301|04a2db55-dd0e-4036-96c4-b9177362bb59|ab34f2d7-d11d-40f2-a691-a3e55939e906",
+          ""
+        ],
+        [
+          "silk_overlap|189113501|89492301|78e8b93d-75f3-4fa2-9bd1-985ec2dbbf7a|ab34f2d7-d11d-40f2-a691-a3e55939e906",
+          ""
+        ],
+        [
+          "silk_overlap|189113501|89622301|3f27a783-97e8-45c8-87db-553183e0b1d8|78e8b93d-75f3-4fa2-9bd1-985ec2dbbf7a",
+          ""
+        ],
+        [
+          "silk_overlap|255663501|89492301|78e8b93d-75f3-4fa2-9bd1-985ec2dbbf7a|bd7c9217-fc50-49cd-ad6c-8aad4d87c3cc",
+          ""
+        ],
+        [
+          "silk_overlap|255663501|89622301|ab34f2d7-d11d-40f2-a691-a3e55939e906|c84b4000-a898-4ec6-a774-a361321547af",
+          ""
+        ],
+        [
+          "silk_overlap|255663501|89622301|bd7c9217-fc50-49cd-ad6c-8aad4d87c3cc|c84b4000-a898-4ec6-a774-a361321547af",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -139,7 +180,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.13,
         "min_via_diameter": 0.7,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.02,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -473,7 +514,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1832,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -547,7 +588,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers/",
+      "plot": "gerber15/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
